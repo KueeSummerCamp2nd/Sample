@@ -10,17 +10,17 @@ void setup(){
 
 void loop(){
   // 直進
-  motorR.drive(80);
-  motorL.drive(80);
+  motorR.drive(20);
+  motorL.drive(20);
   delay(3000);
 
   // 左折
-  motorR.drive(170);
-  motorL.drive(-10);
+  motorR.drive(40);
+  motorL.drive(-20);
   delay(3000);
 
   // 右折
-  motorR.drive(-10);
-  motorL.drive(170);
+  motorR.drive(-20);
+  motorL.drive(40);
   delay(3000);
 }
