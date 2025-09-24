@@ -18,7 +18,7 @@ void setup(){
 // 電源が入っているうちは永遠に繰り返し実行される
 void loop(){
   // センサーの値を入れる配列を定義
-  int value[8];
+  uint16_t value[8];
   // センサーから読み出してvalに格納
   sensor.read(value);
 
