@@ -8,7 +8,6 @@ WiFiUDP Udp;
 void setup() {
   Serial.begin(9600);
 
-  WiFi.config(IPAddress(192, 168, 0, 1));
   WiFi.beginAP(ssid, pass);
 
   Serial.println("AP started");

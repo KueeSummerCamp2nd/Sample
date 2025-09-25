@@ -9,7 +9,6 @@ IPAddress gatewayIP;
 void setup() {
   Serial.begin(9600);
 
-  WiFi.config(IPAddress(192, 168, 0, 2));
   while (WiFi.begin(ssid, pass) != WL_CONNECTED) {
     Serial.println("Connecting");
     delay(1000);
